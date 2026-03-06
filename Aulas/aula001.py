@@ -5,8 +5,8 @@ print(type(n2))
 
 s = n1 + n2
 m = n1 * n2
-print(f'A soma dos números digitados é {s}')
-print(f'A multiplicação dos numeros é {m}')
+print(f'A soma entre {n1} e {n2} é {s}')
+print(f'A multiplicação entre {n1} e {n2} é {m}')
 
 #Aqui no código a cima, usando o type, conseguimos identificar a classe, nesse caso um inteiro, após a conversão
 
