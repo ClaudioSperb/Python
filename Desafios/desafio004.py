@@ -1,0 +1,6 @@
+msg = input('Digite algo: ')
+print(f'Você digitou o valor {msg}')
+print(f'O valor digitado é do tipo {type(msg)}')
+print(f'O valor digitado é numérico? {msg.isnumeric()}')
+print(f'O valor digitado é  alfabético? {msg.isalpha()}')
+print(f'O valor digitado tem numeros decimais {msg.isdecimal()}')
