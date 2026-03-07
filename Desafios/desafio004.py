@@ -7,3 +7,6 @@ print(f'O valor digitado tem numeros decimais? {msg.isdecimal()}')
 print(f'O valor digitado possui apenas espaços? {msg.isspace()}')
 print(f'O valor digitado contem apenas letras Minusculas ? {msg.islower()}')
 print(f'O valor digitado contem apenas letras em MAIÚSCULAS? {msg.isupper()}')
+print(f'O valoe digitado está capitalizado? {msg.istitle()}')
+print(f'O valor digitado contem letras e numeros? {msg.isalnum()}')
+
