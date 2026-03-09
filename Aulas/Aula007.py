@@ -9,5 +9,5 @@ pot = n1**n2
 restdiv = n1 % n2
 
 print(f'O valor da soma entre eles é {n1+n2}')
-print(f'O valor da subtração é {n1 - n2}, da multiplicação é {mult}, da divisão é {divnor:.3F}')
+print(f'O valor da subtração é {n1 - n2}, da multiplicação é {mult}, da divisão é {divnor:.3f}')
 print(f'O valor da divisão inteira é {divint}, da potencia é {pot} e do resto da divisão é {restdiv}')
