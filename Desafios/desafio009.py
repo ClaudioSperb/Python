@@ -1,7 +1,7 @@
 num = int (input('Digite um numero: '))
 print(f'O valor digitado é {num}')
 print('A sua tabuada é: ')
-print('-------------')
+print('-' * 15)
 print(f'{num} x 0 = {num * 0}')
 print(f'{num} x 1 = {num * 1}')
 print(f'{num} x 2 = {num * 2}')
@@ -13,7 +13,7 @@ print(f'{num} x 7 = {num * 7}')
 print(f'{num} x 8 = {num * 8}')
 print(f'{num} x 9 = {num * 9}')
 print(f'{num} x 10 = {num * 10}')
-print('-------------')
+print('-' * 15)
 # for i in range(11):
 #     print(f'{num * i}')
 
