@@ -1,0 +1,15 @@
+import math
+
+num = float(input('Digite um angulo: '))
+angulo = math.radians(num)
+seno = math.sin(angulo)
+cos = math.cos(angulo)
+tan = math.tan(angulo)
+print(f'O angulo digitado é {math.trunc(num)}°')
+print('-' * 15)
+print(f'O seno de {num}º é {seno:.2f}')
+print('-' * 15)
+print(f'O cosseno de {num}º é {cos:.2f}')
+print('-' * 15)
+print(f'A tangente de {num}º é {tan:.2f}')
+print('-' * 15)
