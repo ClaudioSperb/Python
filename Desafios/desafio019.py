@@ -1,4 +1,8 @@
 import random
-engateToro = input('Aperte o [ENTER] e veja quem vai instalar o engate da toro 2017: ')
-listaAlunos = random.choice(['Claudio', 'Elton', 'Nildo', 'Cristen', 'Vitor', 'Fernando', 'Dyeiki', 'Felipe'])
-print(f'O sortudo da vez foi o {listaAlunos}')
+aluno01 = str(input('Digite o nome do aluno: '))
+aluno02 = str(input('Digite o nome do outro aluno: '))
+aluno03 = str(input('Digite o nome do outro aluno: '))
+aluno04 = str(input('Digite o nome do último aluno: '))
+listaSorteio = [aluno01, aluno02, aluno03, aluno04]
+sorteioFinal = random.choice(listaSorteio)
+print(f'O aluno sorteado para apagar o quadro foi {sorteioFinal}')
