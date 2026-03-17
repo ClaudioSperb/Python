@@ -20,3 +20,5 @@ print(texto2.strip())
 print(texto2.rstrip())
 print(texto2.lstrip())
 print(texto.replace('Curso', 'Modulo'))
+
+
