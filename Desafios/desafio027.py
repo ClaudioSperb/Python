@@ -1,0 +1,6 @@
+nomeCompleto = input('Digite seu nome completo: ').strip().upper()
+divisãoNome = nomeCompleto.split()
+print(f'Seu nome é {nomeCompleto}')
+print(f'Seu primeiro nome é {divisãoNome[0]}')
+print(f'e seu último nome é {divisãoNome[-1]}')
+#print(nomeCompleto, divisãoNome)
