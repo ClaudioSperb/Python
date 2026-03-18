@@ -1,0 +1,6 @@
+frase = str(input('Digite uma frase: ')).strip().upper()
+validandoLetraA = frase.count('A')
+positionLetraA = frase.find('A')
+print(f'A frase digitada foi {frase}')
+print(f'A frase digitada contem {frase.count("A")} letra(s) A')
+print(f'A posição de cada letra A é {positionLetraA}')
