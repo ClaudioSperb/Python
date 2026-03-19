@@ -1,0 +1,6 @@
+frase = str('Mundo Pyhon do Curso em Video').split()
+fraseTudoJunto = ''.join(frase)
+print(fraseTudoJunto)
+print(''.join(frase))
+print(len(fraseTudoJunto))
+print(len(frase))
