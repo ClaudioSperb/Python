@@ -1,0 +1,6 @@
+texto = str("       Ola, Mundo Python     ")
+print(texto)
+print(len(texto))
+print(len(texto.strip()))
+print(texto.lstrip())
+print(texto.rstrip())
