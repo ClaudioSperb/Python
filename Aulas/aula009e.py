@@ -1,3 +1,5 @@
+from gettext import find
+
 frase = str('Mundo Pyhon do Curso em Video').split()
 fraseTudoJunto = ''.join(frase)
 print(fraseTudoJunto)
