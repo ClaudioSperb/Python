@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome: ')).upper()
+print(f'\033[0;30;41m {nome}')
+print(f'\033[4;33;44m {nome}')
+print(f'\033[1;35;43m {nome}')
+print(f'\033[30;42m {nome}')
+print(f'\033[1;40;97m {nome}')
+print(f'\033[1;97;40m {nome}')
