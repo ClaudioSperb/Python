@@ -1,3 +1,5 @@
+from time import sleep
+
 nomeUsuario = str(input('Digite seu nome: ')).strip().title()
 print(f'Olá {nomeUsuario}')
 distancia = float(input('Digite a Km desejada para sua viagem: '))
@@ -5,6 +7,7 @@ valorNormal = distancia * 0.5
 valorPromoc = distancia * 0.45
 print(f'Certo {nomeUsuario}, a distancia escolhida foi de {distancia:.2f}km')
 print('CALCULANDO o valor total ...')
+sleep(2)
 if distancia <= 200:
     print(f'O valor da viagem ficou em R${valorNormal:.2f} reais')
 else:
