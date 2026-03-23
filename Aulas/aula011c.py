@@ -1,0 +1,2 @@
+#CRIANDO UM ROOT DE CORES COM OBJETO
+coresSistema = 
